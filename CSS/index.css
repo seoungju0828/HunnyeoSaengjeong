@@ -1,0 +1,48 @@
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    /* top: 100px; */
+}
+
+button {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+#flirting {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    width: 750px;
+    height: 800px;
+}
+
+#triangle {
+    position: absolute;
+    left: 700px;
+    top: 150px;
+    width: 650px;
+    height: 800px;
+}
+
+#fashion {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    width: 1000px;
+}
+
+#confession {
+    position: absolute;
+    top: 410px;
+    right: 520px;
+    width: 530px;
+}
+
+#beauty {
+    position: absolute;
+    top: 410px;
+    right: 50px;
+    width: 450px;
+}
