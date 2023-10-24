@@ -1,0 +1,49 @@
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    /* top: 100px; */
+}
+
+button {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+.closet {
+    position: absolute;
+    border: 5px solid black;
+    width: 67%;
+    height: 83%;
+    top: 15%;
+    left: 1%;
+}
+
+.Img {
+    position: absolute;
+    border: 5px solid black;
+    width: 30%;
+    height: 83%;
+    top: 15%;
+    right: 1%;
+}
+
+@media screen and (max-width : 1024px) {
+    .closet {
+        left: 1%;
+        top: 10%;
+        width: 98%;
+        height: 70%;
+    }
+
+    .Img {
+        left: 1%;
+        top: 81%;
+        width: 98%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width : 768px ) {
+    
+}

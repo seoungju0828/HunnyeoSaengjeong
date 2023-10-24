@@ -16,3 +16,15 @@ button {
     margin: 10px;
     padding: 5px 10px;
 }
+
+#prev-button {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+
+#next-button {
+    position: absolute;
+    top: 450px;
+    right: 50px;
+}
