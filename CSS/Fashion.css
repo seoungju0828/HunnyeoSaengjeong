@@ -28,6 +28,52 @@ button {
     right: 1%;
 }
 
+.txt {
+    /* position: absolute; */
+    font-size: 40px;
+    left: 45%;
+}
+
+.face-img {
+    position: absolute;
+    border: 2px solid black;
+    width: 13%;
+    height: 20%;
+    border-radius: 50%;
+    left: 43%;
+}
+
+.Img-txt {
+    position: absolute;
+    font-size: 20px;
+    left: 20%;
+    top: 32%;
+}
+
+.TOP-Img {
+    position: absolute;
+    width: 45%;
+    height: 70%;
+    left: 27%;
+    top: 25%;
+}
+
+/* .button-container {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+} */
+
+/* i {
+    width: 50%;
+    height: 30%;
+}
+
+.bi-arrow-left {
+    width: 100%;
+    height: 100%;
+} */
+
 @media screen and (max-width : 1024px) {
     .closet {
         left: 1%;
