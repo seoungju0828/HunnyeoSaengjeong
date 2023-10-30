@@ -1,48 +1,62 @@
-h1 {
+ h1 {
     font-size: 4rem;
     text-align: center;
     /* top: 100px; */
 }
 
-button {
+/* .triangle {
     position: absolute;
-    top: 50px;
-    right: 150px;
+    left: 40%;
+    top: 80%;
+    /* bottom: %;
+    width: 0;
+    height: 0;
+    -webkit-transform: scaleX(2);
+    /* transform: scaleX(2);
+    transform: scaleY(7);
+    /* border: 5px solid black; 
+    border-bottom: 100px solid gray;
+    border-left: 100px solid transparent;
+} */
+
+.Flirting {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+
+    left: 1%;
+    top: 15%;
+    /* transform: scaleX(3);
+    transform: scaleY(2); */
+    /* transform: scale(2); */
+    border-top: 360px solid #666666;
+    border-right: 180px solid transparent;
+    border-left: 180px solid #666666;
 }
 
-#flirting {
+.fashion {
     position: absolute;
-    left: 50px;
-    top: 150px;
-    width: 750px;
-    height: 800px;
+    right: 1%;
+    top: 15%;
+    width: 50%;
+    height: 20%;
+    border: 5px solid black;
 }
 
-#triangle {
+.confession {
     position: absolute;
-    left: 700px;
-    top: 150px;
-    width: 650px;
-    height: 800px;
+    right: 22%;
+    top: 38%;
+    width: 29%;
+    height: 60%;
+    border: 5px solid black;
 }
 
-#fashion {
+.beauty {
     position: absolute;
-    top: 150px;
-    right: 50px;
-    width: 1000px;
-}
-
-#confession {
-    position: absolute;
-    top: 410px;
-    right: 520px;
-    width: 530px;
-}
-
-#beauty {
-    position: absolute;
-    top: 410px;
-    right: 50px;
-    width: 450px;
+    right: 1%;
+    top: 38%;
+    width: 20%;
+    height: 60%;
+    border: 5px solid black;
 }
