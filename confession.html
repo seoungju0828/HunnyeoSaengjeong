@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/set.css">
+    <link rel="stylesheet" href="CSS/confession.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;400;700&family=Noto+Serif+KR:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+    <title>훈 녀 생 정</title>
+</head>
+<body>
+
+    <header>
+        <p>훈&nbsp;녀&nbsp;생&nbsp;정</p>
+        <button><i class="bi bi-chevron-left"></i></button>
+        <button><i class="bi bi-pentagon-fill"></i></button>
+    </header>
+
+    <main>
+        <div class="calendar-container">
+            <div class="title flex-container">
+                <div class="left"><i class="bi bi-caret-left-fill"></i></div>
+                <div class="month"></div>
+                <div class="right"><i class="bi bi-caret-right-fill"></i></div>
+            </div>
+    
+            <div class="canlendar">
+                <div class="weekday">
+                    <div class="weekday-item">일</div>
+                    <div class="weekday-item">월</div>
+                    <div class="weekday-item">화</div>
+                    <div class="weekday-item">수</div>
+                    <div class="weekday-item">목</div>
+                    <div class="weekday-item">금</div>
+                    <div class="weekday-item">토</div>
+                </div>
+    
+                <div class="dates">
+                </div>
+            </div>
+        </div>
+    
+        <div class="weather-container">
+            <dl>
+                <dt>기온</dt>
+                <dd class="temperature"></dd>
+                <dt>위치</dt>
+                <dd class="place"></dd>
+                <dt>설명</dt>
+                <dd class="description"></dd>
+              </dl>
+        </div>
+    
+        <div class="lucky-container">
+    
+        </div>
+    </main>
+
+    <script src="JS/calendar.js"></script>
+    
+</body>
+</html>
