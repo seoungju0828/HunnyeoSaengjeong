@@ -1,0 +1,36 @@
+.TOP-Img {
+    position: absolute;
+    width: 45%;
+    height: 70%;
+    left: 27%;
+    top: 25%;
+}
+
+.TOP-container {
+    position: relative;
+    display: inline-block;
+}
+
+#TOP-item {
+    /* position: absolute; */
+    top: 60%;
+    left: 100%;
+    width: 100%;
+    height: 50%;
+}
+
+.bi-chevron-left {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.bi-chevron-right {
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    margin: 10px;
+    padding: 5px 10px;
+}
