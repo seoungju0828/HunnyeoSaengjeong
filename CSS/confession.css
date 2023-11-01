@@ -28,6 +28,56 @@ p {
     height: 83%;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    column-gap: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.weekday {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-size: 2rem;
+    text-align: center;
+    padding: 1%;
+    padding-top: 3%;
+    row-gap: 30%;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.date-item {
+    /* padding: 100%; */
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+}
+
+.left,
+.right,
+.month {
+    cursor: pointer;
+}
+
 .weather-container {
     position: absolute;
     border: 5px solid black;
@@ -44,47 +94,6 @@ p {
     top: 72%;
     width: 37%;
     height: 26%;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-    column-gap: 20%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.weekday {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    font-size: 2rem;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.dates {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    font-size: 2rem;
-    text-align: center;
-    padding: 1%;
-    padding-top: 3%;
-    row-gap: 35%;
-}
-
-.date-item {
-    /* padding: 100%; */
-    aspect-ratio: 1/1;
-    display: grid;
-    place-items: center;
-}
-
-.left,
-.right,
-.month {
-    cursor: pointer;
 }
 
 @media screen and (max-width : 1024px) {
