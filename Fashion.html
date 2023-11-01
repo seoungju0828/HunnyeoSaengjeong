@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="CSS/set.css">
     <link rel="stylesheet" href="CSS/Fashion.css">
+    <link rel="stylesheet" href="CSS/SlideShow.css">
+    <link rel="stylesheet" href="CSS/Face-Img.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
@@ -15,40 +17,54 @@
 <body>
 
     <header>
-        <h1><b>훈 녀 생 정</b></h1>
-        <button>Home</button>
+        <p>훈&nbsp;녀&nbsp;생&nbsp;정</p>
+        <!-- <button><i class="bi bi-chevron-left"></i></button> -->
+        <button><i class="bi bi-pentagon-fill"></i></button>
     </header>
 
-    <div class="sector-container">
-        <div class="closet">
-            <a class="txt">내 남자가 좋아하는 상의</a>
-
-            <div class="clothes-container">
-                <div class="face-img">
-                    <a class="Img-txt"><b>얼굴사진을 <br> 넣어주세요</b></a>
+    <main>
+        <div class="closet-container">
+            <div class="closet">
+                <a class="txt">내 남자가 좋아하는 코디</a>
+    
+                <div class="clothes-container">
+                    <div class="container">
+                        <div class="image-upload" id="image-upload">
+                
+                            <form method="post" enctype="multipart/form-data">
+                                <div class="clothes-container">
+                                    <label for="chooseFile" class="face-img">
+                                        <b class="face-txt">얼굴사진을 <br> 넣어주세요</b>
+                                    </label>
+                                </div>
+                                <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+                            </form>
+                
+                            <div class="fileContainer">
+                                <div class="fileInput">
+                                    <p id="fileName"></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="image-show" id="image-show"></div>
+                    </div>
                 </div>
-
-                <div class="closet-TOP">
-                    <ul class="slider">
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                    </ul> 
-
-                    <p class="controller">
-                        <!-- &lang: 왼쪽 방향 화살표
-                        &rang: 오른쪽 방향 화살표 -->
-                        <span class="prev">&lang;</span>  
-                        <span class="next">&rang;</span>
-                    </p>
-                  </div>
-                  <script src="JS/slideShow.js"></script>
+                <script src="JS/Face-Img.js"></script>
             </div>
+
+            <div class="TOP-container">
+                <img id="TOP-item" src="Images/TOP1.png" alt="img">
+                <button id="prev-button"><i class="bi bi-chevron-left"></i></button>
+                <button id="next-button"><i class="bi bi-chevron-right"></i></button>
+            </div>
+            <script src="JS/SlideShow.js"></script>
         </div>
-    </div>
+
+        <div class="score-container">
+            <p>제 점수는요...</p>
+        </div>
+    </main>
     
 </body>
 </html>

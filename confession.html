@@ -26,7 +26,7 @@
 
     <main>
         <div class="calendar-container">
-            <div class="title flex-container">
+            <div class="title">
                 <div class="left"><i class="bi bi-caret-left-fill"></i></div>
                 <div class="month"></div>
                 <div class="right"><i class="bi bi-caret-right-fill"></i></div>
@@ -47,24 +47,21 @@
                 </div>
             </div>
         </div>
+        <script src="JS/calendar.js"></script>
     
         <div class="weather-container">
-            <dl>
-                <dt>기온</dt>
-                <dd class="temperature"></dd>
-                <dt>위치</dt>
-                <dd class="place"></dd>
-                <dt>설명</dt>
-                <dd class="description"></dd>
-              </dl>
+            <div class="weather-info">
+                <p class="temperature"></p>
+                <p class="place"></p>
+                <p class="description"></p>
+            </div>
         </div>
+        <script src="JS/weather.js"></script>
     
         <div class="lucky-container">
     
         </div>
     </main>
-
-    <script src="JS/calendar.js"></script>
     
 </body>
 </html>
