@@ -8,26 +8,40 @@ ul{
     list-style: none;
 }
 
-a{
+/* a{
     text-decoration: none;
     color: black;
-}
+} */
 
 img{
     max-width: 100%;
     height: auto;
 }
 
-p {
+#title {
     font-family: 'Hahmlet', serif;
     font-family: 'Noto Serif KR', serif;
     font-size: 5rem;
     text-align: center;
 }
 
+.bi-chevron-left {
+    position: absolute;
+    font-size: 3rem;
+    top: 5%;
+    left: 1%;
+}
+
+.bi-pentagon-fill {
+    position: absolute;
+    font-size: 3rem;
+    top: 5%;
+    right: 2%;
+}
+
 @media screen and (max-width : 1024px) {
 
-    p {
+    #title {
         font-size: 3.5rem;
     }
 
@@ -45,7 +59,7 @@ p {
 
 @media screen and (max-width : 768px) {
 
-    p {
+    #title {
         font-size: 2rem;
     }
 
