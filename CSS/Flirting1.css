@@ -1,0 +1,162 @@
+.ment-container {
+    position: absolute;
+    border: 5px solid black;
+    top: 15%;
+    left: 1%;
+    width: 98%;
+    height: 20%;
+}
+
+.bloodtype-container {
+    position: absolute;
+    border: 5px solid black;
+    top: 37%;
+    left: 1%;
+    width: 48.5%;
+    height: 61%;
+}
+
+.star-container {
+    position: absolute;
+    border: 5px solid black;
+    top: 37%;
+    right: 1%;
+    width: 48.5%;
+    height: 61%;
+}
+
+#intro {
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#intro-ment {
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.bi-alphabet-uppercase {
+    position: absolute;
+    font-size: 17rem;
+    right: 34%;
+}
+
+.bi-star-fill {
+    position: absolute;
+    font-size: 17rem;
+    right: 34%;
+}
+
+#b-ment,
+#s-ment {
+    position: absolute;
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 4rem;
+    top: 65%;
+}
+
+#b-ment {
+    left: 38%;
+}
+
+#s-ment {
+    right: 38%;
+}
+
+@media screen and (max-width : 1024px) {
+    .ment-container {
+        top: 10%;
+        height: 25%;
+    }
+
+    .bloodtype-container,
+    .star-container {
+        top: 36%;
+        height: 63%;
+    }
+
+    #intro {
+        position: absolute;
+        font-size: 2.5rem;
+        top: 5%;
+        left: 35%;
+    }
+
+    #intro-ment {
+        position: absolute;
+        font-size: 3rem;
+        top: 40%;
+        left: 15%;
+    }
+
+    .bi-star-fill {
+        font-size: 13rem;
+        top: 10%;
+        right: 25%;
+    }
+
+    #b-ment {
+        left: 28%;
+    }
+
+    #s-ment {
+        right: 28%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .ment-container {
+        top: 5%;
+        height: 25%;
+    }
+
+    .bloodtype-container,
+    .star-container {
+        top: 31%;
+        height: 68%;
+    }
+
+    #intro {
+        position: absolute;
+        font-size: 2.5rem;
+        top: 5%;
+        left: 29%;
+    }
+
+    #intro-ment {
+        position: absolute;
+        font-size: 2.5rem;
+        top: 50%;
+        left: 3%;
+    }
+
+    .bi-star-fill {
+        font-size: 10rem;
+        top: 20%;
+        right: 20%;
+    }
+
+    #b-ment {
+        font-size: 3rem;
+        top: 60%;
+        left: 24%;
+    }
+
+    #s-ment {
+        font-size: 3rem;
+        top: 60%;
+        right: 24%;
+    }
+
+}

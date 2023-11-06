@@ -1,0 +1,118 @@
+.ment-container {
+    position: absolute;
+    border: 5px solid black;
+    top: 15%;
+    left: 1%;
+    width: 98%;
+    height: 15%;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ment {
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 4rem;
+}
+
+.BloodType-container {
+    position: absolute;
+    border: 5px solid black;
+    top: 32%;
+    left: 1%;
+    width: 32%;
+    height: 66%;
+}
+
+.Star-container {
+    position: absolute;
+    border: 5px solid black;
+    top: 32%;
+    left: 34%;
+    width: 32%;
+    height: 66%;
+}
+
+.ZodiacSigns-container {
+    position: absolute;
+    border: 5px solid black;
+    top: 32%;
+    right: 1%;
+    width: 32%;
+    height: 66%;
+}
+
+#Search-ment {
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 2rem;
+}
+
+@media screen and (max-width : 1024px) {
+    .ment-container {
+        top: 10%;
+        height: 13%;
+    }
+
+    #ment {
+        font-size: 3rem;
+    }
+
+    .BloodType-container {
+        top: 25%;
+        width: 48%;
+        height: 50%;
+    }
+
+    .Star-container {
+        top: 25%;
+        left: 51%;
+        width: 48%;
+        height: 50%;
+    }
+
+    .ZodiacSigns-container {
+        top: 77%;
+        width: 98%;
+        height: 30%;
+    }
+
+    #Search-ment {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .ment-container {
+        top: 6%;
+        height: 10%;
+    }
+
+    #ment {
+        font-size: 2.5rem;
+    }
+
+    .BloodType-container {
+        top: 17%;
+        width: 98%;
+        height: 35%;
+    }
+
+    .Star-container {
+        top: 53%;
+        left: 1%;
+        width: 98%;
+        height: 35%;
+    }
+
+    .ZodiacSigns-container {
+        top: 89%;
+        height: 35%;
+    }
+}
