@@ -29,15 +29,15 @@ function loadFile(input) {
         var imgHeight = newImage.height;
         var imgRatio = imgWidth / imgHeight;
 
-        var desiredWidth = 13; // 원하는 너비
-        var desiredHeight = 20; // 원하는 높이
+        var desiredWidth = 9; // 원하는 너비
+        var desiredHeight = 15; // 원하는 높이
 
         if (imgRatio > 1) {
             newImage.style.height = desiredHeight + '%'; // 세로 길이를 조정
-            newImage.style.width = (desiredHeight * imgRatio) * (13 / 20) + '%'; // 가로 길이를 조정
+            newImage.style.width = (desiredHeight * imgRatio) * (9 / 15) + '%'; // 가로 길이를 조정
         } else {
             newImage.style.width = desiredWidth + '%'; // 가로 길이를 조정
-            newImage.style.height = (desiredWidth / imgRatio) * (20 / 13) + '%'; // 세로 길이를 조정
+            newImage.style.height = (desiredWidth / imgRatio) * (15 / 9) + '%'; // 세로 길이를 조정
         }
 
         // 이미지를 수직 가운데 정렬

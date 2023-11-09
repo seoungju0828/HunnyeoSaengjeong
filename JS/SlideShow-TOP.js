@@ -2,8 +2,9 @@ const images = ["Images/TOP1.png", "Images/TOP2.png", "Images/TOP3.png", "Images
 let currentImageIndex = 0;
 
 const intro_img = document.getElementById("TOP-item");
-const prevButton = document.getElementById("prev-button");
-const nextButton = document.getElementById("next-button");
+const prevButton = document.getElementById("prev-button-T");
+const nextButton = document.getElementById("next-button-T");
+
 function showImage(index) {
     intro_img.src = images[index];
 }

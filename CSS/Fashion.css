@@ -1,13 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 h1 {
     font-size: 4rem;
     text-align: center;
     /* top: 100px;*/
+}
+
+#ment {
+    position: absolute;
+    /* top: 5%; */
+    left: 1%;
+    font-size: 2.5rem;
+
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
 }
 
 .closet-container {
@@ -19,13 +25,29 @@ h1 {
     left: 1%;
 }
 
-.score-container {
+.clothes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Score-container {
     position: absolute;
     border: 5px solid black;
     width: 30%;
     height: 83%;
     top: 15%;
     right: 1%;
+}
+
+#s-ment {
+    position: absolute;
+    left: 3%;
+    font-size: 3rem;  
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
 }
 
 @media screen and (max-width : 1024px) {

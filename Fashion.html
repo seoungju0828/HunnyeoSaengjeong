@@ -10,22 +10,27 @@
     <link rel="stylesheet" href="CSS/SlideShow.css">
     <link rel="stylesheet" href="CSS/Face-Img.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;400;700&family=Noto+Serif+KR:wght@700&display=swap" rel="stylesheet">
+   
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
     <title>훈 녀 생 정</title>
 </head>
 <body>
 
     <header>
-        <p>훈&nbsp;녀&nbsp;생&nbsp;정</p>
-        <!-- <button><i class="bi bi-chevron-left"></i></button> -->
+        <p id="title">훈&nbsp;녀&nbsp;생&nbsp;정</p>
+        <button><i class="bi bi-chevron-left"></i></button>
         <button><i class="bi bi-pentagon-fill"></i></button>
     </header>
 
     <main>
         <div class="closet-container">
             <div class="closet">
-                <a class="txt">내 남자가 좋아하는 코디</a>
+                <p id="ment">내 남자가 좋아하는 코디</p>
     
                 <div class="clothes-container">
                     <div class="container">
@@ -46,24 +51,36 @@
                                 </div>
                             </div>
                         </div>
-                        
                         <div class="image-show" id="image-show"></div>
                     </div>
+                    <script src="JS/Face-Img.js"></script>
+
+                    <div class="TOP-container">
+                        <img id="TOP-item" src="Images/TOP1.png" alt="img">
+                        <button id="prev-button-T"><i class="bi bi-arrow-left prev-TOP"></i></button>
+                        <button id="next-button-T"><i class="bi bi-arrow-right next-TOP"></i></button>
+                        <!-- <div id="top-score-container"></div> -->
+                    </div>
+                    <!-- <script src="JS/SlideShow-TOP.js"></script> -->
+
+                    <div class="BOTTOM-container">
+                        <img id="BOTTOM-item" src="Images/Bottom1.png" alt="img">
+                        <button id="prev-button-B"><i class="bi bi-arrow-left prev-BOTTOM"></i></button>
+                        <button id="next-button-B"><i class="bi bi-arrow-right next-BOTTOM"></i></button>
+                        <!-- <div id="bottom-score-container"></div> -->
+                    </div>
+                    <!-- <script src="JS/SlideShow-BOTTOM.js"></script> -->
+                    
                 </div>
-                <script src="JS/Face-Img.js"></script>
             </div>
-
-            <div class="TOP-container">
-                <img id="TOP-item" src="Images/TOP1.png" alt="img">
-                <button id="prev-button"><i class="bi bi-chevron-left"></i></button>
-                <button id="next-button"><i class="bi bi-chevron-right"></i></button>
-            </div>
-            <script src="JS/SlideShow.js"></script>
         </div>
 
-        <div class="score-container">
-            <p>제 점수는요...</p>
+        <div class="Score-container">
+            <p id="s-ment">제 점수는요...</p>
+            <!-- <p class="Score-item"></p> -->
+            <div id="top-score-container"></div>
         </div>
+        <script src="JS/Score.js"></script>
     </main>
     
 </body>
