@@ -1,36 +1,59 @@
 .TOP-Img {
     position: absolute;
-    width: 45%;
-    height: 70%;
+    width: 25%;
+    height: 50%;
     left: 27%;
     top: 25%;
 }
 
 .TOP-container {
-    position: relative;
+    position: absolute;
     display: inline-block;
+    top: 19%;
+    left: 36%;
+    z-index: 100;
 }
 
 #TOP-item {
     /* position: absolute; */
-    top: 60%;
-    left: 100%;
-    width: 100%;
+    /* top: 80%; */
+    /* left: 20%; */
+    width: 60%;
     height: 50%;
 }
 
-.bi-chevron-left {
+.prev-TOP {
     position: absolute;
-    top: 450px;
-    left: 50px;
-    margin: 10px;
-    padding: 5px 10px;
+    top: 40%;
+    left: -10%;
+    font-size: 3rem;
 }
 
-.bi-chevron-right {
+.next-TOP {
     position: absolute;
-    top: 450px;
-    right: 50px;
-    margin: 10px;
-    padding: 5px 10px;
+    top: 40%;
+    right: 29%;
+    font-size: 3rem;
+}
+
+.BOTTOM-container {
+    position: absolute;
+    top: 43%;
+    left: 31%;
+    width: 35%;
+    height: 75%;
+}
+
+.prev-BOTTOM {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    font-size: 3rem;
+}
+
+.next-BOTTOM {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    font-size: 3rem;
 }
