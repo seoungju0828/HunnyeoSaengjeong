@@ -1,6 +1,6 @@
-var currentData = StarType;
+var currentData = ZodiacSignsType;
 
-function doSort_star(key) {
+function doSort_zodiacSigns(key) {
     currentData.sort(function(a, b) {
         return a[key] > b[key] ? 1 : a[key] < b[key] ? -1 : 0;
     });
@@ -8,11 +8,11 @@ function doSort_star(key) {
     renderTable(currentData);
 }
 
-function doSearch_star() {
-    var search_txt = document.getElementById("searchTxt2").value;
+function doSearch_zodiacSigns() {
+    var search_txt = document.getElementById("searchTxt3").value;
     var regEXP = new RegExp(search_txt, "i");
 
-    var data = StarType.filter(item => {
+    var data = ZodiacSignsType.filter(item => {
         if (item.type === search_txt) {
             return true;
         } else {
@@ -20,12 +20,11 @@ function doSearch_star() {
         }
     });
 
-
     currentData = data;
-    renderTable_star(data);
+    renderTable_zodiacSigns(data);
 }
 
-function renderTable_star(data) {
+function renderTable_zodiacSigns(data) {
     var h = [];
     console.log(data);
 
@@ -38,12 +37,11 @@ function renderTable_star(data) {
         h.push(`</tr>`);
     });
 
-    document.querySelector("#tb_star>tbody").innerHTML = h.join('');
-    
+    document.querySelector("#tb_zodiacSigns>tbody").innerHTML = h.join('');
 }
 
 function checkEnter(event) {
     if (event.keyCode === 13) {
-        doSearch_star();
+        doSearch_zodiacSigns();
     }
 }

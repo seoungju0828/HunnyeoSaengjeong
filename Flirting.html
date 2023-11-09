@@ -27,42 +27,45 @@
     <main>
         <div class="ment-container">
             <p id="ment">그 남자 공략법</p>
+            <P id="D-ment">*과학적으로 증명되지 않는 사실입니다.</P>
         </div>
 
         <div class="BloodType-container">
             <p id="Search-ment">그 남자의 혈액형을 입력하세요</p>
 
             <input type="text" id="searchTxt" onkeydown="checkEnter(event)">
-            <input type="button" value="조회" onclick="doSearch()">
+            <input type="button" value="검색" onclick="doSearch()">
 
             <table id="tb" border="1">
                 <thead>
                     <tr>
-                        <th onclick="doSort('Style')">Style</th>
-                        <th onclick="doSort('Advantages')">Advantages</th>
-                        <th onclick="doSort('Disadvantage')">Disadvantage</th>
-                        <th onclick="doSort('Attack')">Attack</th>
+                        <th onclick="doSort('Style')">혈액형</th>
+                        <th onclick="doSort('Advantages')">장점</th>
+                        <th onclick="doSort('Disadvantage')">단점</th>
+                        <th onclick="doSort('Attack')">공략방법</th>
                     </tr>
                 </thead>
 
                 <tbody></tbody>
             </table>
 
+            <script src="JS/BloodType_data.js"></script>
+            <script src="JS/BloodType_table.js"></script>
         </div>
         
         <div class="Star-container">
             <p id="Search-ment">그 남자의 별자리를 입력하세요</p>
 
             <input type="text" id="searchTxt2" onkeydown="checkEnter(event)">
-            <input type="button" value="조회" onclick="doSearch_star()">
+            <input type="button" value="검색" onclick="doSearch_star()">
 
             <table id="tb_star" border="1">
                 <thead>
                     <tr>
-                        <th onclick="doSort_star('style')">스타일</th>
+                        <th onclick="doSort_star('Style')">별자리</th>
                         <th onclick="doSort_star('Advantages')">장점</th>
                         <th onclick="doSort_star('Disadvantage')">단점</th>
-                        <th onclick="doSort_star('Attack')">권고사항</th>
+                        <th onclick="doSort_star('Attack')">공략방법</th>
                     </tr>
                 </thead>
                 
@@ -76,24 +79,25 @@
         <div class="ZodiacSigns-container">
             <p id="Search-ment">그 남자의 띠를 입력하세요</p>
 
-            <input type="text" id="searchTxt" onkeydown="checkEnter(event)">
-            <input type="button" value="조회" onclick="doSearch()">
+            <input type="text" id="searchTxt3" onkeydown="checkEnter(event)">
+            <input type="button" value="검색" onclick="doSearch_zodiacSigns()">
 
-            <table id="tb" border="1">
+            <table id="tb_zodiacSigns" border="1">
                 <thead>
                     <tr>
-                        <th onclick="doSort('Style')">Style</th>
-                        <th onclick="doSort('Advantages')">Advantages</th>
-                        <th onclick="doSort('Disadvantage')">Disadvantage</th>
-                        <th onclick="doSort('Attack')">Attack</th>
+                        <th onclick="doSort_zodiacSigns('Style')">유형</th>
+                        <th onclick="doSort_zodiacSigns('Advantages')">장점</th>
+                        <th onclick="doSort_zodiacSigns('Disadvantage')">단점</th>
+                        <th onclick="doSort_zodiacSigns('Attack')">공략방법</th>
                     </tr>
                 </thead>
 
                 <tbody></tbody>
             </table>
 
-            <script src="JS/BloodType_data.js"></script>
-            <script src="JS/BloodType_Table.js"></script>
+            <script src="JS/ZodiacSignsType_data.js"></script>
+            <script src="JS/ZodiacSignsType_table.js"></script>
+
         </div>
     </main>
     
