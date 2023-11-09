@@ -59,7 +59,7 @@ p {
     text-align: center;
     padding: 1%;
     padding-top: 3%;
-    row-gap: 30%;
+    row-gap: 28%;
     font-family: 'Gowun Batang', serif;
     font-family: 'Hahmlet', serif;
     font-family: 'Noto Serif KR', serif;
@@ -87,6 +87,43 @@ p {
     height: 55%;
 }
 
+#ment {
+    position: absolute;
+    left: 1%;
+    font-size: 4rem;
+}
+
+#temp,
+#temp_max,
+#temp_min,
+#wind,
+#humidity {
+    position: absolute;
+    left: 1%;
+    font-size: 3rem;
+    color: rgb(41, 39, 39);
+}
+
+#temp {
+    top: 20%;
+}
+
+#temp_max {
+    top: 35%;
+}
+
+#temp_min {   
+    top: 52%;
+}
+
+#wind {
+    top: 68%;
+}
+
+#humidity {
+    top: 84%;
+}
+
 .lucky-container {
     position: absolute;
     border: 5px solid black;
@@ -94,6 +131,17 @@ p {
     top: 72%;
     width: 37%;
     height: 26%;
+}
+
+#lucky-ment {
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+
+    /* top: 20%; */
+    /* text-align: center; */
+    font-size: 5rem;
+    color: red;
 }
 
 @media screen and (max-width : 1024px) {
@@ -115,7 +163,7 @@ p {
     .calendar-container {
         top: 10%;
         width: 98%;
-        height: 55%;
+        height: 58%;
     }
 
     .title {
@@ -133,16 +181,34 @@ p {
 
     .weather-container {
         left: 1%;
-        top: 66%;
+        top: 69%;
         width: 55%;
         height: 33%;
     }
 
+    #ment {
+        font-size: 3rem;
+    }
+
+    #temp,
+    #temp_max,
+    #temp_min,
+    #wind,
+    #humidity {
+        font-size: 2rem;
+    }
+
     .lucky-container {
         right: 1%;
-        top: 66%;
+        top: 69%;
         width: 42%;
         height: 33%;
+    }
+
+    #lucky-ment {
+        position: absolute;
+        top: 1%;
+        font-size: 4rem;
     }
 
 }
@@ -166,7 +232,7 @@ p {
     .calendar-container {
         top: 5%;
         width: 98%;
-        height: 60%;
+        height: 63%;
     }
 
     .title {
@@ -184,16 +250,34 @@ p {
 
     .weather-container {
         left: 1%;
-        top: 66%;
+        top: 69%;
         width: 98%;
         height: 30%;
     }
 
+    #ment {
+        font-size: 2.5rem;
+    }
+
+    #temp,
+    #temp_max,
+    #temp_min,
+    #wind,
+    #humidity {
+        font-size: 1.5rem;
+    }
+
     .lucky-container {
         left: 1%;
-        top: 97%;
+        top: 100%;
         width: 98%;
         height: 20%;
+    }
+
+    #lucky-ment {
+        position: absolute;
+        left: 8%;
+        font-size: 3.5rem;
     }
 
 }

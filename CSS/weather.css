@@ -1,0 +1,36 @@
+#ment {
+    position: absolute;
+    left: 1%;
+    font-size: 4rem;
+}
+
+#temp,
+#temp_max,
+#temp_min,
+#wind,
+#humidity {
+    position: absolute;
+    left: 1%;
+    font-size: 3rem;
+    color: rgb(41, 39, 39);
+}
+
+#temp {
+    top: 20%;
+}
+
+#temp_max {
+    top: 35%;
+}
+
+#temp_min {   
+    top: 52%;
+}
+
+#wind {
+    top: 68%;
+}
+
+#humidity {
+    top: 84%;
+}

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="CSS/set.css">
-    <link rel="stylesheet" href="CSS/confession.css">
+    <link rel="stylesheet" href="CSS/GoBack.css">
+    <!-- <link rel="stylesheet" href="CSS/weather.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
 <body>
 
     <header>
-        <p>훈&nbsp;녀&nbsp;생&nbsp;정</p>
+        <p id="title">훈&nbsp;녀&nbsp;생&nbsp;정</p>
         <button><i class="bi bi-chevron-left"></i></button>
         <button><i class="bi bi-pentagon-fill"></i></button>
     </header>
@@ -50,16 +51,20 @@
         <script src="JS/calendar.js"></script>
     
         <div class="weather-container">
-            <div class="weather-info">
-                <p class="temperature"></p>
-                <p class="place"></p>
-                <p class="description"></p>
-            </div>
+            <p id="w-ment"></p>
+            <p id="w-ment2"></p>
+
+            <p id="ment"></p>
+            <p id="temp"></p>
+            <p id="wind"></p>
+            <p id="humidity"></p>
+            <p id="temp_max"></p>
+            <p id="temp_min"></p>
         </div>
         <script src="JS/weather.js"></script>
     
         <div class="lucky-container">
-    
+            <p id="lucky-ment">지금 고백 안하면<br>평생 못한다!</p>
         </div>
     </main>
     
