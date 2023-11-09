@@ -4,20 +4,20 @@
     /* top: 100px; */
 }
 
-/* .triangle {
+.triangle {
     position: absolute;
     left: 40%;
     top: 80%;
-    /* bottom: %;
+    /* bottom: %; */
     width: 0;
     height: 0;
-    -webkit-transform: scaleX(2);
+    /* -webkit-transform: scaleX(2); */
     /* transform: scaleX(2);
-    transform: scaleY(7);
-    /* border: 5px solid black; 
+    transform: scaleY(7); */
+    border: 5px solid black; 
     border-bottom: 100px solid gray;
     border-left: 100px solid transparent;
-} */
+}
 
 .Flirting {
     position: absolute;
@@ -26,9 +26,11 @@
 
     left: 1%;
     top: 15%;
+
     /* transform: scaleX(3);
-    transform: scaleY(2); */
-    /* transform: scale(2); */
+    transform: scaleY(2);
+    transform: scale(2); */
+
     border-top: 360px solid #666666;
     border-right: 180px solid transparent;
     border-left: 180px solid #666666;

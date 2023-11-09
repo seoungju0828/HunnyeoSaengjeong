@@ -39,6 +39,13 @@ img{
     right: 2%;
 }
 
+/* p {
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 5rem;
+    text-align: center;
+} */
+
 @media screen and (max-width : 1024px) {
 
     #title {
