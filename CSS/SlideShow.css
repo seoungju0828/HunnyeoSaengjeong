@@ -57,3 +57,27 @@
     right: 3%;
     font-size: 3rem;
 }
+
+#top-score-container {
+    position: absolute;
+    top: 28%;
+    left: 23%;
+    font-size: 10rem;
+
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+}
+
+#e-ment {
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    font-size: 3rem;
+ 
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+}

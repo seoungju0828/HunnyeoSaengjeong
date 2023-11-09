@@ -36,7 +36,7 @@ function updateBottomSlideAndScore(bottomIndex) {
 function checkAndDisplayTopResult(topIndex, bottomIndex) {
     if (topIndex === 0) {
         if (bottomIndex === 0 || bottomIndex === 1)
-            topScoreContainer.textContent = "그저그럼";
+            topScoreContainer.textContent = "그닥";
         else if (bottomIndex === 2 || bottomIndex === 3)
             topScoreContainer.textContent = "좋음";
         else if (bottomIndex === 4)
@@ -45,12 +45,12 @@ function checkAndDisplayTopResult(topIndex, bottomIndex) {
         if (bottomIndex === 0)
             topScoreContainer.textContent = "좋음";
         else if (bottomIndex === 1)
-            topScoreContainer.textContent = "그저그럼";
+            topScoreContainer.textContent = "그닥";
         else
             topScoreContainer.textContent = "별로";
     } else if (topIndex === 2) {
         if (bottomIndex === 0)
-            topScoreContainer.textContent = "그저그럼";
+            topScoreContainer.textContent = "그닥";
         else if (bottomIndex === 1 || bottomIndex === 2 || bottomIndex === 3)
             topScoreContainer.textContent = "별로";
         else if (bottomIndex === 4)
@@ -64,7 +64,7 @@ function checkAndDisplayTopResult(topIndex, bottomIndex) {
         if (bottomIndex === 0 || bottomIndex === 2 || bottomIndex === 3)
             topScoreContainer.textContent = "좋음";
         else if (bottomIndex === 1 || bottomIndex === 4)
-            topScoreContainer.textContent = "그저그럼";
+            topScoreContainer.textContent = "그닥";
     }
 }
 
