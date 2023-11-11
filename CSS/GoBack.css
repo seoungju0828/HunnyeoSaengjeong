@@ -89,6 +89,7 @@ p {
 
 #ment {
     position: absolute;
+    top: 1%;
     left: 1%;
     font-size: 4rem;
 }
