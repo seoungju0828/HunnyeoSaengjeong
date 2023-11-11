@@ -4,36 +4,69 @@
     /* top: 100px; */
 }
 
-.triangle {
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: inherit; /* 부모 요소의 색상 상속 */
+}
+/* 링크에 마우스를 올렸을 때의 스타일 */
+a:hover {
+  text-decoration: none; /* 밑줄 제거 */
+}
+/* 링크를 클릭한 후의 스타일 */
+a:active {
+  color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+/* .triangle {
     position: absolute;
     left: 40%;
     top: 80%;
-    /* bottom: %; */
+    /* bottom: %;
     width: 0;
     height: 0;
-    /* -webkit-transform: scaleX(2); */
+    /* -webkit-transform: scaleX(2);
     /* transform: scaleX(2);
-    transform: scaleY(7); */
+    transform: scaleY(7); 
     border: 5px solid black; 
     border-bottom: 100px solid gray;
     border-left: 100px solid transparent;
-}
+} */
 
 .Flirting {
     position: absolute;
     width: 0px;
     height: 0px;
 
+    transform: scaleX(2.5) scaleY(2.2);
+    transform-origin: left top;
+
     left: 1%;
     top: 15%;
 
-    /* transform: scaleX(3);
-    transform: scaleY(2);
-    transform: scale(2); */
-
-    border-top: 360px solid #666666;
+    border-top: 360px solid black;
     border-right: 180px solid transparent;
-    border-left: 180px solid #666666;
+    border-left: 180px solid black;
+}
+
+.triangle {
+    /* width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue; 원하는 배경색을 지정하세요 */
+
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    top: 15%;
+    left: 46%;
+    transform: scaleX(9) scaleY(7.9);
+    transform-origin: right top;
+
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid black; /* 원하는 배경색을 지정하세요 */
+    /* border: 10px red; */
 }
 
 .fashion {
@@ -45,20 +78,31 @@
     border: 5px solid black;
 }
 
-.confession {
+#f-ment,
+#g-ment,
+#b-ment {
+    position: absolute;
+    left: 1%;
+    font-size: 3rem;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.GoBack {
     position: absolute;
     right: 22%;
-    top: 38%;
+    top: 36%;
     width: 29%;
-    height: 60%;
+    height: 61.5%;
     border: 5px solid black;
 }
 
 .beauty {
     position: absolute;
     right: 1%;
-    top: 38%;
-    width: 20%;
-    height: 60%;
+    top: 36%;
+    width: 20.5%;
+    height: 61.5%;
     border: 5px solid black;
 }
