@@ -39,12 +39,37 @@ img{
     right: 2%;
 }
 
-/* p {
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: inherit; /* 부모 요소의 색상 상속 */
+}
+/* 링크에 마우스를 올렸을 때의 스타일 */
+a:hover {
+  text-decoration: none; /* 밑줄 제거 */
+}
+/* 링크를 클릭한 후의 스타일 */
+a:active {
+  color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+.ment-container {
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    width: 98%;
+    height: 84%;
+    border: 5px solid black;
+}
+
+#ment {
+    position: absolute;
+    top: 33%;
+    left: 23%;
+
+    font-size: 10rem;
     font-family: 'Hahmlet', serif;
     font-family: 'Noto Serif KR', serif;
-    font-size: 5rem;
-    text-align: center;
-} */
+}
 
 @media screen and (max-width : 1024px) {
 
@@ -60,6 +85,17 @@ img{
     .bi-pentagon-fill {
         font-size: 2.5rem;
         top: 3%;
+    }
+
+    .ment-container {
+        top: 10%;
+        height: 89%;
+    }
+
+    #ment {
+        top: 40%;
+        left: 21%;
+        font-size: 5rem;
     }
 
 }
@@ -78,6 +114,16 @@ img{
     .bi-pentagon-fill {
         font-size: 1.5rem;
         top: 1%;
+    }
+
+    .ment-container {
+        top: 6%;
+        height: 93%;
+    }
+
+    #ment {
+        top: 45%;
+        font-size: 3rem;
     }
 
 }
