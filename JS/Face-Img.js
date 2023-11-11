@@ -29,15 +29,20 @@ function loadFile(input) {
         var imgHeight = newImage.height;
         var imgRatio = imgWidth / imgHeight;
 
-        var desiredWidth = 9; // 원하는 너비
-        var desiredHeight = 15; // 원하는 높이
+        var desiredWidth, desiredHeight;
 
-        if (imgRatio > 1) {
-            newImage.style.height = desiredHeight + '%'; // 세로 길이를 조정
-            newImage.style.width = (desiredHeight * imgRatio) * (9 / 15) + '%'; // 가로 길이를 조정
+        if (window.innerWidth <= 1024) {
+            // 최대 폭이 1024px인 화면에 대한 크기 조절
+            desiredWidth = 12; 
+            desiredHeight = 17;
+        } else if (window.innerWidth <= 768) {
+            // 최대 폭이 768px인 화면에 대한 크기 조절
+            desiredWidth = 15; 
+            desiredHeight = 12;
         } else {
-            newImage.style.width = desiredWidth + '%'; // 가로 길이를 조정
-            newImage.style.height = (desiredWidth / imgRatio) * (15 / 9) + '%'; // 세로 길이를 조정
+            // 더 큰 화면에 대한 기본 크기
+            desiredWidth = 9; 
+            desiredHeight = 15;
         }
 
         // 이미지를 수직 가운데 정렬

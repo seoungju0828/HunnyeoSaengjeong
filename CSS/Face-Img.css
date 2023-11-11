@@ -13,7 +13,7 @@
     width: 10%;
     height: 15%;
     border-radius: 50%;
-    left: 43%;
+    left: 43.5%;
     top: 5%;
 }
 
@@ -87,4 +87,33 @@ label {
 #imageContainer img {
     max-width: 100%;
     max-height: 100%;
+}
+
+@media screen and (max-width : 1024px) {
+    .face-img {
+        top: 12%;
+        left: 43%;
+        width: 12%;
+        /* width: 13%;
+        height: 17%; */
+    }
+
+    .face-txt {
+        left: 21%;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .face-img {
+        top: 15%;
+        left: 42.5%;
+        width: 15%;
+        height: 12%;
+    }
+
+    .face-txt {
+        left: 15%;
+        font-size: 0.7rem;
+    }
 }

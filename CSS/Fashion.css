@@ -38,7 +38,7 @@ h1 {
     height: 83%;
     top: 15%;
     right: 1%;
-}
+} 
 
 #s-ment {
     position: absolute;
@@ -55,7 +55,7 @@ h1 {
         left: 1%;
         top: 10%;
         width: 98%;
-        height: 70%;
+        height: 75%;
     }
 
     .Img {
@@ -64,8 +64,21 @@ h1 {
         width: 98%;
         height: 30%;
     }
+
+    .Score-container {
+        top: 86%;
+        left: 1%;
+        width: 98%;
+        height: 40%;
+    }
 }
 
-@media screen and (max-width : 768px ) {
-    
+@media screen and (max-width : 768px) {
+    .closet-container {
+        top: 6%;
+    }
+
+    .Score-container {
+        top: 82%;
+    }
 }
