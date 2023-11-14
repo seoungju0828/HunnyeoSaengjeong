@@ -13,7 +13,7 @@ const getJSON = function(url, callback) {
     xhr.send();
 };
   
-getJSON('http://api.openweathermap.org/data/2.5/weather?q=seoul&appid=1eb1d18602c0e2dde562cdc2005a4495&units=metric',
+getJSON('https://api.openweathermap.org/data/2.5/weather?q=seoul&appid=1eb1d18602c0e2dde562cdc2005a4495&units=metric',
 
 function(err, data) {
 
